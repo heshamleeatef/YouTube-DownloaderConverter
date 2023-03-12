@@ -281,11 +281,11 @@ convert_playlist_button = tkinter.Button(root, width=15, text="Convert playlist"
 convert_playlist_button.pack(side=tkinter.LEFT, padx=5, pady=5)
 
 # open videos button
-open_videos_button = tkinter.Button(bottomframe, width=15, text="Open Videos Folder", font=('*Font', 16), command=open_videos)
+open_videos_button = tkinter.Button(bottomframe, width=15, text="Open videos folder", font=('*Font', 16), command=open_videos)
 open_videos_button.pack(side=tkinter.LEFT, padx=5, pady=5)
 
 # open audio button
-open_audio_button = tkinter.Button(bottomframe, width=15, text="Open Audio Folder", font=('*Font', 16), command=open_audio)
+open_audio_button = tkinter.Button(bottomframe, width=15, text="Open audio folder", font=('*Font', 16), command=open_audio)
 open_audio_button.pack(side=tkinter.LEFT, padx=5, pady=5)
 
 root.mainloop()
