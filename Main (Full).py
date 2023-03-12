@@ -199,7 +199,7 @@ for a in range(len(language_files_list)):
         vars()[(get_second_part(lines[2])[:2])] = lines
         if lines[0] == "YouTube Downloader/Converter by Lee":
             if lines[1] == "ver=0.4":
-                if lines[11] == "end":
+                if lines[13] == "end":
                     languages_present.append(get_second_part(lines[2]))
 
 
@@ -214,7 +214,7 @@ def language_select(event):
             vars()[(get_second_part(lines[2])[:2])] = lines
             if lines[0] == "YouTube Downloader/Converter by Lee":
                 if lines[1] == "ver=0.4":
-                    if lines[11] == "end":
+                    if lines[13] == "end":
                         languages_present.append(get_second_part(lines[2]))
     label.config(text=get_second_part(vars()[languages_present[language_selected][:2]][4]))
     clear_button.config(text=get_second_part(vars()[languages_present[language_selected][:2]][5]))
