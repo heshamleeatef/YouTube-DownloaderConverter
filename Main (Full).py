@@ -222,6 +222,8 @@ def language_select(event):
     download_playlist_button.config(text=get_second_part(vars()[languages_present[language_selected][:2]][7]))
     convert_button.config(text=get_second_part(vars()[languages_present[language_selected][:2]][8]))
     convert_playlist_button.config(text=get_second_part(vars()[languages_present[language_selected][:2]][9]))
+    open_videos_button.config(text=get_second_part(vars()[languages_present[language_selected][:2]][10]))
+    open_audio_button.config(text=get_second_part(vars()[languages_present[language_selected][:2]][11]))
 
 
 # gui
